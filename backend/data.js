@@ -61,7 +61,7 @@ const data = {
       category: 'Creator',
       image: '/images/10279.jpg',
       price: 1000,
-      countInStock: 'Pre-order',
+      countInStock: 10,
       brand: 'LEGO',
       rating: 4.0,
       numReviews: 0,

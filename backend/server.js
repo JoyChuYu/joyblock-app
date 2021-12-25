@@ -107,7 +107,7 @@ io.on('connection', (socket) => {
       } else {
         io.to(socket.id).emit('message', {
           name: 'Admin',
-          body: 'Sorry. I am not online right now',
+          body: 'Sorry. I am not online right now, Please leave your messages',
         });
       }
     }

@@ -10,7 +10,7 @@ const data = {
       isSeller: true,
       seller: {
         name: 'LEGO',
-        logo: '/images/logo1.png',
+        logo: '/images/LEGO_logo.png',
         description: 'LEGO Expert',
         rating: 4.5,
         numReviews: 120,

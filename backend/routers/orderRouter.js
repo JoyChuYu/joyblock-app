@@ -143,7 +143,7 @@ orderRouter.put(
           .messages()
           .send(
             {
-              from: 'Joy Block <sandbox2aee77f0a9f94996bea2d196b30bd819.mailgun.org>',
+              from: 'Joy Block <JoyBlock@mg.sandbox2aee77f0a9f94996bea2d196b30bd819.mailgun.org.com>',
               to: `${order.user.name} <${order.user.email}>`,
               subject: `New order ${order._id}`,
               html: payOrderEmailTemplate(order),

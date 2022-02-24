@@ -314,7 +314,7 @@ function App() {
         </main>
         <footer className="row center">
           {userInfo && !userInfo.isAdmin && <ChatBox userInfo={userInfo} />}
-          <div>All right reserved</div>{' '}
+          <div>All right reserved by Joy's Block</div>{' '}
         </footer>
       </div>
     </BrowserRouter>

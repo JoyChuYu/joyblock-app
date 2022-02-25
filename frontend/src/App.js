@@ -65,11 +65,19 @@ function App() {
               <i className="fa fa-bars"></i>
             </button>
             <Link className="brand" to="/">
-              Joy Block
+              Joy's Block
             </Link>
           </div>
           <div>
             <SearchBox />
+          </div>
+          <div>
+          <Link to="/aboutus">
+              About us
+              {cartItems.length > 0 && (
+                <span className="badge">{cartItems.length}</span>
+              )}
+              </Link>
           </div>
           <div>
             <Link to="/cart">

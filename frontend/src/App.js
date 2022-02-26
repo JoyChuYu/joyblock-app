@@ -5,7 +5,6 @@ import { signout } from './actions/userActions';
 import AdminRoute from './components/AdminRoute';
 import PrivateRoute from './components/PrivateRoute';
 import CartScreen from './screens/CartScreen';
-import AboutUs from './screens/CartScreen';
 import HomeScreen from './screens/HomeScreen';
 import OrderHistoryScreen from './screens/OrderHistoryScreen';
 import OrderScreen from './screens/OrderScreen';
@@ -71,14 +70,6 @@ function App() {
           </div>
           <div>
             <SearchBox />
-          </div>
-          <div>
-          <Link to="/aboutus">
-              About us
-              {cartItems.length > 0 && (
-                <span className="badge">{cartItems.length}</span>
-              )}
-              </Link>
           </div>
           <div>
             <Link to="/cart">

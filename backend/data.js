@@ -10,9 +10,9 @@ const data = {
       isSeller: true,
       seller: {
         name: 'LEGO',
-        logo: '/images/LEGO_logo.png',
+        logo: '/images/LEGO_LOGO.png',
         description: 'LEGO Expert',
-        rating: 4.5,
+        rating: 4,
         numReviews: 120,
       },
     },
@@ -27,7 +27,7 @@ const data = {
         logo: '/images/logo1.png',
         description: 'Tomica Collector',
         rating: 4.5,
-        numReviews: 120,
+        numReviews: 10,
       },
     },
     {
